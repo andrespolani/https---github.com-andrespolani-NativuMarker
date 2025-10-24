@@ -1,0 +1,193 @@
+/* CSS completo y estéticamente mejorado para una página de productos colombianos */
+
+body {
+  background-color: #1c1c1c;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.products {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  justify-items: center;
+}
+
+.product-card {
+  background: linear-gradient(145deg, #3a3a3a, #242424);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 320px;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+}
+
+.product-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #ffb347; /* tono cálido colombiano */
+  transition: transform 0.3s;
+}
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.product-info {
+  padding: 1rem;
+  text-align: center;
+}
+.product-info strong {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  display: block;
+  color: #ffe66d;
+}
+.product-info .price {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #ff6b6b;
+  font-size: 1.1rem;
+}
+
+.cart-btn {
+  margin: 1rem 0;
+  padding: 0.7em 1.5em;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+}
+.cart-btn.add {
+  background-color: #ffb347;
+  color: #1c1c1c;
+}
+.cart-btn.remove {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+.cart-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+/* Modal emergente estético */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal {
+  background: linear-gradient(135deg, #3a3a3a, #1c1c1c);
+  border-radius: 24px;
+  max-width: 420px;
+  width: 90%;
+  padding: 2.5rem;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+  animation: slideUp 0.4s ease-out;
+}
+
+.modal h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #ffb347;
+}
+
+.modal-product img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+  border: 2px solid #ffe66d;
+  transition: transform 0.3s;
+}
+.modal-product img:hover {
+  transform: scale(1.05);
+}
+
+.modal-product p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffe66d;
+}
+.modal-product .price {
+  font-size: 1.1rem;
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+.confirm-btn {
+  background-color: #ffb347;
+  border: none;
+  padding: 0.8em 1.6em;
+  border-radius: 16px;
+  color: #1c1c1c;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.confirm-btn:hover {
+  background-color: #ffc966;
+  transform: translateY(-2px);
+}
+.cancel-btn {
+  background-color: #1c1c1c;
+  border: 2px solid #ff6b6b;
+  padding: 0.8em 1.6em;
+  border-radius: 16px;
+  color: #ff6b6b;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.cancel-btn:hover {
+  background-color: #2a2a2a;
+  transform: translateY(-2px);
+}
+
+@keyframes slideUp {
+  from {transform: translateY(40px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}

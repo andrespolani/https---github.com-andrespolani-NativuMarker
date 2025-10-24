@@ -1,0 +1,72 @@
+.footer {
+  background-color: #004B87; /* azul profundo */
+  color: white;
+  padding: 40px 20px;
+  margin-top: 3rem;
+  border-top: 5px solid #FFD100;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/* LOGO Y MARCA */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFD100;
+  letter-spacing: 1px;
+}
+
+/* ENLACES */
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #FFD100;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-socials a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.footer-socials a:hover {
+  color: #ffd700; /* Amarillo dorado tipo colombiano */
+  transform: scale(1.2);
+}

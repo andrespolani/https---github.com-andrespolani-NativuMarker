@@ -1,0 +1,233 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Café del Huila",
+      "description": "Café colombiano 100% arábigo cultivado en las montañas del Huila.",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Café Andino",
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Café de Nariño",
+      "description": "Aromático y balanceado, cultivado en tierras volcánicas del sur de Colombia.",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Montaña Real",
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/2/1.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sombrero Vueltiao",
+      "description": "Tradicional sombrero colombiano tejido con caña flecha por artesanos Zenú.",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Artesanías del Caribe",
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/3/1.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Mochila Wayuu",
+      "description": "Hecha a mano por mujeres Wayuu con hilos coloridos del norte de Colombia.",
+      "price": 280,
+      "discountPercentage": 17.91,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "Tejidos Wayuu",
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/4/1.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ruana de Nobsa",
+      "description": "Abrigo artesanal tejido en lana virgen por artesanos boyacenses.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Artesanías Boyacá",
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/5/1.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Café Sierra Nevada",
+      "description": "Cosechado por comunidades indígenas de la Sierra Nevada de Santa Marta.",
+      "price": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 83,
+      "brand": "Kogui Café",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/6/1.png"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Cacao del Putumayo",
+      "description": "Cacao fino de aroma, cultivado de forma sostenible por familias campesinas.",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Del Río",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/7/1.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bocadillo Veleño",
+      "description": "Dulce típico elaborado con guayaba y azúcar, tradicional de Vélez (Santander).",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "El Vélezano",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/8/1.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Arequipe de Antioquia",
+      "description": "Dulce de leche cremoso, elaborado artesanalmente en el corazón del Eje Cafetero.",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Dulces de mi Tierra",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/9/1.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Sombrero Aguadeño",
+      "description": "Símbolo de tradición caldense, hecho a mano con palma de iraca.",
+      "price": 1099,
+      "discountPercentage": 6.18,
+      "rating": 4.43,
+      "stock": 89,
+      "brand": "Artesanos de Aguadas",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/10/1.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Panela Orgánica",
+      "description": "Producida de forma artesanal a partir del jugo de caña en el Valle del Cauca.",
+      "price": 13,
+      "discountPercentage": 8.4,
+      "rating": 4.26,
+      "stock": 65,
+      "brand": "La Cañera",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/11/1.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Achiras del Huila",
+      "description": "Galletas crocantes elaboradas con almidón de achira, un clásico colombiano.",
+      "price": 40,
+      "discountPercentage": 15.66,
+      "rating": 4,
+      "stock": 52,
+      "brand": "Doña Chira",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/12/1.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Cestería de Nocaima",
+      "description": "Canastos tejidos a mano con fibras naturales por artesanos cundinamarqueses.",
+      "price": 13,
+      "discountPercentage": 8.14,
+      "rating": 4.59,
+      "stock": 61,
+      "brand": "Manos Colombianas",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/13/1.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Tamal Tolimense",
+      "description": "Tamal de arroz, carne y garbanzos envuelto en hoja de plátano, típico del Tolima.",
+      "price": 120,
+      "discountPercentage": 15.6,
+      "rating": 4.21,
+      "stock": 114,
+      "brand": "Sabores del Tolima",
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/14/1.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Aguardiente Antioqueño",
+      "description": "Licor tradicional de anís, orgullo del departamento de Antioquia.",
+      "price": 30,
+      "discountPercentage": 10.99,
+      "rating": 4.7,
+      "stock": 105,
+      "brand": "Fábrica de Licores de Antioquia",
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/15/1.jpg"
+      ]
+    }
+  ],
+  "total": 100,
+  "skip": 0,
+  "limit": 30
+}
